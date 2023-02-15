@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+    <History>False|2023-02-14T08:06:18.6890185Z;True|2023-02-14T13:04:47.6785044+05:00;True|2023-02-10T17:24:08.3974503+05:00;False|2023-02-10T17:23:00.8714600+05:00;False|2023-02-10T17:22:44.0307468+05:00;True|2023-02-10T17:20:47.7020851+05:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="SqlServer">
+      <Value>Data Source=%28localdb%29\MSSQLLocalDB%3bInitial Catalog=IssueDB%3bIntegrated Security=True%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="trackingapi.Data.issueDbContext">
+      <Value>Data Source=%28localdb%29\MSSQLLocalDB%3bInitial Catalog=IssueDB%3bIntegrated Security=True%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
